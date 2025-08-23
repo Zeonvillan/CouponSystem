@@ -86,8 +86,8 @@ A comprehensive REST API for managing different types of coupons (Cart-wise, Pro
    ```
 
 5. **Access the application**
-   - API Base URL: `http://localhost:8080/api`
-   - Health Check: `http://localhost:8080/api/health`
+   - API Base URL: `http://localhost:9000/api`
+   - Health Check: `http://localhost:9000/api/health`
    - Database: MySQL on `localhost:3306/coupon_management_db`
 
 ### Sample Data
@@ -101,7 +101,7 @@ The application automatically creates sample coupons on startup:
 
 ### Base URL
 ```
-http://localhost:8080/api
+http://localhost:9000/api
 ```
 
 ### Endpoints
@@ -436,7 +436,7 @@ src/
    ```
    Error: Port 8080 was already in use
    ```
-   - Change port in `application.properties`: `server.port=8081`
+   - Change port in `application.properties`: `server.port=9000`
    - Or kill process using port 8080
 
 2. **Bean Creation Errors**
