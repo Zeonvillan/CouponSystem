@@ -62,7 +62,7 @@ class CouponControllerTest {
     
     @Test
     void testCreateCoupon_Success() throws Exception {
-        // Given
+        // Given if
         when(couponService.createCoupon(any())).thenReturn(testCoupon);
         
         // When & Then
